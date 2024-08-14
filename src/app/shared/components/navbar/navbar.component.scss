@@ -1,0 +1,67 @@
+header {
+    width: 1240px;
+    height: 87px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 19px;   
+    padding: 60px;
+    margin: 0 auto; /* Centraliza o header horizontalmente na tela */
+
+    .logo {
+        img {
+            width: 250px;
+            height: 61px;
+        }
+    }
+
+    nav {
+        width: 400px;
+        height: 35px;
+        background-color: #1C1C1C;
+        display: flex; 
+        align-items: center;
+        border-radius: 16px;
+        padding: 10px; /* Adiciona padding para centralizar os itens no fundo escuro */
+        margin: 202px; 
+
+        ul {
+            width: 100%;
+            align-items: center;
+            display: flex;
+            gap: 19px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            color: white;
+            list-style: none;
+            font-size: 16px;
+            height: 24px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            cursor: pointer;
+            background-color: inherit; /* Faz com que o li herde o background-color da nav */
+            padding: 10px 15px; 
+            border-radius: 8px; 
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.8rem;
+        }
+    }
+
+    button {
+        font-family: "Poppins", sans-serif;
+        width: 175px;
+        height: 37px;
+        border-radius: 26px;
+        background-color: #E63E21;
+        border-style: none;
+    }
+}
