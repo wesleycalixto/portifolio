@@ -6,16 +6,18 @@ header {
     justify-content: center;
     gap: 19px;   
     padding: 60px;
+    margin-bottom: 20px;
     margin: 0 auto; /* Centraliza o header horizontalmente na tela */
 
     .logo {
         img {
-            width: 250px;
+            width: 230px;
             height: 61px;
         }
     }
 
     nav {
+
         width: 400px;
         height: 35px;
         background-color: #1C1C1C;
@@ -23,7 +25,7 @@ header {
         align-items: center;
         border-radius: 16px;
         padding: 10px; /* Adiciona padding para centralizar os itens no fundo escuro */
-        margin: 202px; 
+        margin: 10px; 
 
         ul {
             width: 100%;
